@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>All PDF Files</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+      margin-top: 50px;
+      font-size: 2rem;
+    }
+
+    .pdf-list {
+      list-style: none;
+      padding: 0;
+      margin-top: 30px;
+    }
+
+    .pdf-item {
+      background-color: #fff;
+      padding: 10px;
+      margin: 5px 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .pdf-item:hover {
+      background-color: #f0f0f0;
+    }
+
+    a {
+      text-decoration: none;
+      color: #2c3e50;
+      font-weight: bold;
+    }
+
+    a:hover {
+      color: #2980b9;
+    }
+
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h1>All PDF Files</h1>
+    <ul class="pdf-list">
+      <% files.forEach(file => { %>
+        <li class="pdf-item">
+          <a href="/pdfs/<%= file %>"><%= file %></a>
+        </li>
+      <% }); %>
+    </ul>
+  </div>
+
+</body>
+</html>
