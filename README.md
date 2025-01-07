@@ -20,9 +20,9 @@ File Handling: Store PDFs on the server and provide download links.
 PDF Listing: Implement routes to list and download generated PDFs.
 
 ## Technologies:
-Frontend: Chrome Extension (HTML, JavaScript)
-Backend: Node.js, Express, PDFKit
-Libraries: CORS, Body-Parser
+- Frontend: Chrome Extension (HTML, JavaScript)
+- Backend: Node.js, Express, PDFKit
+- Libraries: CORS, Body-Parser
 
 ## Instructions to Run:
 Backend Setup:
