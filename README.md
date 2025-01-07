@@ -14,7 +14,7 @@ Set Up the Project Directory: Organize the extension files (manifest.json, backg
 - Manifest File: Create manifest.json to define metadata and permissions for the extension.
 - Background Script: Implement logic in background.js to handle the context menu and trigger PDF generation.
 - Popup HTML: Design a simple interface in popup.html for displaying extension details.
-- 
+  
 ### Part 2: Node.js Backend
 - Node.js Setup: Set up an Express.js server with PDFKit and CORS for API requests and PDF generation.
 - PDF Generation: Create an endpoint (/api/generate-pdf) that generates PDFs based on received text.
