@@ -27,7 +27,7 @@ Set Up the Project Directory: Organize the extension files (manifest.json, backg
 - Libraries: CORS, Body-Parser
 
 ## Instructions to Run:
-Backend Setup:
+### Backend Setup:
 Install Dependencies:
 - Ensure Node.js and npm are installed.
 - Run npm install to install dependencies from package.json.
